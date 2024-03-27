@@ -1,0 +1,1024 @@
+.container{
+	background: black;
+}
+.row {
+	/*background-image: url('../img/back_pic_004_demo.jpg');	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+	background: #063142;
+}
+.footermenu  {
+	background-image: url('../img/');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#msg_success{
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: green;
+	margin-top: 10px;
+}
+#msg_error{
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: red;
+}
+#audio_control{
+	margin:0;
+	padding: 0;
+	display:block;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.row {
+		text-align:center;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	.header_top{
+		width:100%;
+		height:14%;
+		background: #FFFFFF;
+		border-bottom-left-radius: 14px;
+		border-bottom-right-radius: 14px;
+	}
+	.header_top img{
+		height: 41px;
+		margin-top:17px;
+	}
+	.header_menu {
+		height: 38px;
+		width: 95%;
+		padding: 0px;
+		margin: 8px;
+	}
+
+	.header_menu p{
+		height: 21px;
+		font-size:24px;
+		color: #FFFFFF;
+	}
+	.main_body{
+		width:100%;
+		height:67%;
+	}
+	.btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 29px;
+	}
+	.btn_icon{
+		padding:2px;
+		float: left;
+		width: 14%;
+	}
+	.btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.btn-right{
+		padding:2px;
+		float: left;
+		width:83%;
+	}
+	.btn-right p{
+		margin-top: -24px;
+		margin-left: 10px;
+		text-align: left;
+		
+	}
+	.btn-right img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.footermenu{
+		bottom: 0px;
+		width: 100%;		
+		overflow: hidden;
+		height: 11%;
+	}
+	.footermenu img{
+		width: 100%;
+		height: 100%;
+	}
+	.footermenu_icon{
+		padding:3px;
+		float: left;
+		width: 25%; 
+	}
+	/*Acount Service Start*/
+	.service_btn {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		height: 47px;
+	}
+	.service_btn_icon {
+		padding: 2px;
+		float: left;
+		width: 13%;
+	}
+	.service_btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.service_btn_right {
+		padding:2px;
+		float: left;
+		width:83%;
+		height: 100%;
+	}
+	.service_btn_right input {
+		height: 86%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block
+	}
+	/*Acount Service End*/
+		/*Register For New Account css start*/
+	.form_container{
+		margin-left: 15px;
+		margin-right: 15px;
+		overflow: hidden;
+	}
+	.registerac_btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 41px;
+		overflow: hidden;
+	}
+	.registerac_btn_titile{
+		width: 100%;
+		float: left;		
+	}
+	.registerac_btn_titile p{
+		color:#FFFFFF;
+		float: left;
+		font-size: 12px;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+	.registerac_btn_filed{
+		width: 100%;
+		float: left;	
+	}
+	.registerac_btn input {
+		height: 30px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		background: #ffffff;
+	}
+	/*Register For New Account css end*/
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.row {
+		text-align:center;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	.header_top{
+		width:100%;
+		height:14%;
+		background: #FFFFFF;
+		border-bottom-left-radius: 14px;
+		border-bottom-right-radius: 14px;
+	}
+	.header_top img{
+		height: 41px;
+		margin-top:17px;
+		
+	}
+	.header_menu {
+		height: 38px;
+		width: 95%;
+		padding: 0px;
+		margin: 8px;
+	}
+	.header_menu p{
+		height: 21px;
+		font-size: 24px;
+		color: #FFFFFF;
+		
+	}
+	.main_body{
+		width:100%
+		height:67%;
+	}
+	.btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 29px;
+	}
+	.btn_icon{
+		padding:2px;
+		float: left;
+		width: 14%;
+	}
+	.btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.btn-right{
+		padding:2px;
+		float: left;
+		width:83%;
+	}
+	.btn-right p{
+		margin-top: -24px;
+		margin-left: 10px;
+		text-align: left;
+		
+	}
+	.btn-right img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.footermenu{
+		bottom: 0px;
+		width: 100%;
+		height: 11%;		
+		overflow: hidden;
+	}
+	.footermenu img{
+		width: 100%;
+		height: 100%;
+	}
+	.footermenu_icon{
+		padding:3px;
+		float: left;
+		width: 25%; 
+	}
+	/*Acount Service Start*/
+	.service_btn {
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 54px;
+	}
+	.service_btn_icon {
+		padding: 2px;
+		float: left;
+		width: 13%;
+	}
+	.service_btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.service_btn_right {
+		padding:2px;
+		float: left;
+		width:83%;
+		height: 100%;
+	}
+	.service_btn_right input {
+		height: 86%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block
+	}
+	/*Acount Service End*/
+		/*Register For New Account css start*/
+	.form_container{
+		margin-left: 15px;
+		margin-right: 15px;
+		overflow: hidden;
+	}
+	.registerac_btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 41px;
+		overflow: hidden;
+	}
+	.registerac_btn_titile{
+		width: 100%;
+		float: left;		
+	}
+	.registerac_btn_titile p{
+		color:#FFFFFF;
+		float: left;
+		font-size: 12px;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+	.registerac_btn_filed{
+		width: 100%;
+		float: left;	
+	}
+	.registerac_btn input {
+		/*height: 100%;*/
+		height: 30px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		background: #ffffff;
+	}
+	/*Register For New Account css end*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.row {
+		text-align:center;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	.header_top{
+		width:100%;
+		height:14%;
+		background: #FFFFFF;
+		border-bottom-left-radius: 14px;
+		border-bottom-right-radius: 14px;
+	}
+	.header_top img{
+		height: 41px;
+		margin-top:17px;
+		
+	}
+	.header_menu {
+		height: 38px;
+		width: 95%;
+		padding: 0px;
+		margin: 8px;
+	}
+	.header_menu p{
+		height: 21px;
+		font-size: 24px;
+		color: #FFFFFF;	
+	}
+	.main_body{
+		width:100%;
+		height:67%;
+	}
+	.btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 29px;
+	}
+	.btn_icon{
+		padding:2px;
+		float: left;
+		width: 14%;
+	}
+	.btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.btn-right{
+		padding:2px;
+		float: left;
+		width:83%;
+	}
+
+	.btn-right p{
+		margin-top: -24px;
+		margin-left: 10px;
+		text-align: left;
+		
+	}
+	.btn-right img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.footermenu{
+		bottom: 0px;
+		width: 100%;
+		height: 11%;		
+		overflow: hidden;
+	}
+	.footermenu img{
+		width: 100%;
+		height: 100%;
+	}
+	.footermenu_icon{
+		padding:3px;
+		float: left;
+		width: 25%; 
+	}
+	/*Acount Service Start*/
+	.service_btn {
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 34px;
+	}
+	.service_btn_icon {
+		padding: 2px;
+		float: left;
+		width: 13%;
+	}
+	.service_btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.service_btn_right {
+		padding:2px;
+		float: left;
+		width:83%;
+		height: 100%;
+	}
+	.service_btn_right input {
+		height: 86%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block
+	}
+	/*Acount Service End*/
+		/*Register For New Account css start*/
+	.form_container{
+		margin-left: 15px;
+		margin-right: 15px;
+		overflow: hidden;
+	}
+	.registerac_btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 41px;
+		overflow: hidden;
+	}
+	.registerac_btn_titile{
+		width: 100%;
+		float: left;		
+	}
+	.registerac_btn_titile p{
+		color:#FFFFFF;
+		float: left;
+		font-size: 12px;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+	.registerac_btn_filed{
+		width: 100%;
+		float: left;	
+	}
+	.registerac_btn input {
+		/*height: 100%;*/
+		height: 30px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		background: #ffffff;
+	}
+	/*Register For New Account css end*/
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.row {
+		text-align:center;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	.header_top{
+		width:100%;
+		height:14%;
+		background: #FFFFFF;
+		border-bottom-left-radius: 14px;
+		border-bottom-right-radius: 14px;
+	}
+	.header_top img{
+		height: 41px;
+		margin-top:17px;
+		
+	}
+	.header_menu {
+		height: 38px;
+		width: 95%;
+		padding: 0px;
+		margin: 8px;
+	}
+	.header_menu p{
+		height: 21px;
+		font-size: 24px;
+		color: #FFFFFF;
+		
+	}
+	.main_body{
+		width:100%;
+		height:67%;
+	}
+	.btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 29px;
+	}
+	.btn_icon{
+		padding:2px;
+		float: left;
+		width: 14%;
+	}
+	.btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.btn-right{
+		padding:2px;
+		float: left;
+		width:83%;
+	}
+
+	.btn-right p{
+		margin-top: -24px;
+		margin-left: 10px;
+		text-align: left;
+		
+	}
+	.btn-right img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.footermenu{
+		bottom: 0px;
+		width: 100%;
+		height: 11%;
+		overflow: hidden;
+	}
+	.footermenu img{
+		width: 100%;
+		height: 100%;
+	}
+	.footermenu_icon{
+		padding:3px;
+		float: left;
+		width: 25%; 
+	}
+
+	/*Acount Service Start*/
+	.service_btn {
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 34px;
+	}
+	.service_btn_icon {
+		padding: 2px;
+		float: left;
+		width: 13%;
+	}
+	.service_btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.service_btn_right {
+		padding:2px;
+		float: left;
+		width:83%;
+		height: 100%;
+	}
+	.service_btn_right input {
+		height: 86%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block
+	}
+	/*Acount Service End*/
+		/*Register For New Account css start*/
+	.form_container{
+		margin-left: 15px;
+		margin-right: 15px;
+		overflow: hidden;
+	}
+	.registerac_btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 41px;
+		overflow: hidden;
+	}
+	.registerac_btn_titile{
+		width: 100%;
+		float: left;		
+	}
+	.registerac_btn_titile p{
+		color:#FFFFFF;
+		float: left;
+		font-size: 12px;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+	.registerac_btn_filed{
+		width: 100%;
+		float: left;	
+	}
+	.registerac_btn input {
+		/*height: 100%;*/
+		height: 30px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		background: #ffffff;
+	}
+	/*Register For New Account css end*/
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.row {
+		text-align:center;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	.header_top{
+		width:100%;
+		height:14%;
+		background: #FFFFFF;
+		border-bottom-left-radius: 14px;
+		border-bottom-right-radius: 14px;
+	}
+	.header_top img{
+		height: 41px;
+		margin-top:17px;
+		
+	}
+	.header_menu {
+		height: 38px;
+		width: 95%;
+		padding: 0px;
+		margin: 8px;
+	}
+	.header_menu p{
+		height: 21px;
+		font-size: 12px;
+		color: #FFFFFF;
+	}
+	.main_body{
+		width:100%;
+		height:67%;
+	}
+	.btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 29px;
+	}
+	.btn_icon{
+		padding:2px;
+		float: left;
+		width: 14%;
+	}
+	.btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.btn-right{
+		padding:2px;
+		float: left;
+		width:83%;
+	}
+
+	.btn-right p{
+		margin-top: -24px;
+		margin-left: 10px;
+		text-align: left;
+		
+	}
+	.btn-right img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.footermenu{
+		bottom: 0px;
+		width: 100%;
+		height: 11%;		
+		overflow: hidden;
+	}
+	.footermenu img{
+		width: 100%;
+		height: 100%;
+	}
+	.footermenu_icon{
+		padding:3px;
+		float: left;
+		width: 25%; 
+	}
+
+	/*Acount Service Start*/
+	.service_btn {
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 34px;
+	}
+	.service_btn_icon {
+		padding: 2px;
+		float: left;
+		width: 13%;
+	}
+	.service_btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.service_btn_right {
+		padding:2px;
+		float: left;
+		width:83%;
+		height: 100%;
+	}
+	.service_btn_right input {
+		/*height: 86%;*/
+		height: 30px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block
+	}
+	/*Acount Service End*/
+
+		/*Register For New Account css start*/
+	.form_container{
+		margin-left: 15px;
+		margin-right: 15px;
+		overflow: hidden;
+	}
+	.registerac_btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 41px;
+		overflow: hidden;
+	}
+	.registerac_btn_titile{
+		width: 100%;
+		float: left;		
+	}
+	.registerac_btn_titile p{
+		color:#FFFFFF;
+		float: left;
+		font-size: 12px;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+	.registerac_btn_filed{
+		width: 100%;
+		float: left;	
+	}
+	.registerac_btn input {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		background: #ffffff;
+	}
+	/*Register For New Account css end*/
+
+}
+@media only screen and (min-width: 1345px){
+	.row {
+		text-align:center;
+		margin-right: 36%;
+		margin-left: 36%;
+	}
+	.header_top{
+		width:100%;
+		height:14%;
+		background: #FFFFFF;
+		border-bottom-left-radius: 14px;
+		border-bottom-right-radius: 14px;
+	}
+	.header_top img{
+		height: 41px;
+		margin-top:17px;
+		
+	}
+	.header_menu {
+		height: 38px;
+		width: 95%;
+		padding: 0px;
+		margin: 8px;
+	}
+	.header_menu p{
+		height: 21px;
+		font-size:24px;
+		color: #FFFFFF;
+	}
+	.main_body{
+		width:100%;
+		height:67%;
+	}
+	.btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 29px;
+	}
+	.btn_icon{
+		padding:2px;
+		float: left;
+		width: 14%;
+	}
+	.btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.btn-right{
+		padding:2px;
+		float: left;
+		width:83%;
+	}
+	.btn-right p{
+		margin-top: -24px;
+		margin-left: 10px;
+		text-align: left;
+		
+	}
+
+	.btn-right img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.footermenu{
+		bottom: 0px;
+		width: 100%;
+		height: 11%;
+		overflow: hidden;
+	}
+	.footermenu img{
+		width: 100%;
+		height: 100%;
+	}
+	.footermenu_icon{
+		padding:3px;
+		float: left;
+		width: 25%; 
+	}
+
+	/*Acount Service Start*/
+	.service_btn {
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 34px;
+	}
+	.service_btn_icon {
+		padding: 2px;
+		float: left;
+		width: 13%;
+	}
+	.service_btn_icon img{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		border-radius: 6px;
+	}
+	.service_btn_right {
+		padding:2px;
+		float: left;
+		width:83%;
+		height: 100%;
+	}
+	.service_btn_right input {
+		height: 86%;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block
+	}
+	/*Acount Service End*/
+
+	/*Register For New Account css start*/
+	.form_container{
+		margin-left: 15px;
+		margin-right: 15px;
+		overflow: hidden;
+	}
+	.registerac_btn{
+		margin-top: 3px;
+		margin-bottom: 3px;
+		height: 41px;
+		overflow: hidden;
+	}
+	.registerac_btn_titile{
+		width: 100%;
+		float: left;		
+	}
+	.registerac_btn_titile p{
+		color:#FFFFFF;
+		float: left;
+		font-size: 12px;
+		color: #ffffff;
+		margin: 0;
+		padding: 0;
+	}
+	.registerac_btn_filed{
+		width: 100%;
+		float: left;	
+	}
+	.registerac_btn input {
+		height: 30px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		display: block;
+		background: #ffffff;
+	}
+	/*Register For New Account css end*/
+}
